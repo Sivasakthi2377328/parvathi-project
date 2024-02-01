@@ -1,0 +1,259 @@
+.navibar{
+    width: 100%;
+    display: flex;
+    background-color: #9898c1;
+    text-align: center;
+    height: 20%;
+}
+.navibar div{
+    flex: 1;
+}
+.navibarmiddle
+{
+    display: grid;
+    
+     padding-top: 20px;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 50px;
+   
+}
+h3{
+
+  color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.brand{
+    color:red;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+
+}
+button{
+    width: fit-content;
+  height: 30px;
+  background-color:#E75480;
+  border-radius: 10px
+}
+  .middle1{
+    width: 100%;
+    background-image: url("back.jpg");
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+    border-radius: 20px;
+  }
+  p{
+   text-align: center;
+   line-height: 1.8;
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .book{
+    width: 200px;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  button :hover{
+    background-color: blue;
+  }
+
+  .wish{
+   
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  margin-top: 100px;
+  
+  }
+  .pm{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  img{
+
+     width: 300px;
+     height: 300px;
+     border-radius: 10px;
+  }
+  .ourproduts{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 400px;
+    
+  }
+  .discovermore
+  {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 40px;
+  }
+  .op{
+    color: blue;
+    text-shadow: 2px 2px 5px lightblue;
+  }
+  .footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #0B0B35;
+    display: flex;
+    text-align: center;
+    background-image: url("footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .footer div{
+    flex: 1;
+  }
+  .listservices{
+    margin-top: 20px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .services
+  {
+    margin-top: 30px;
+   
+  }
+  .contact{
+    
+    padding: 30px;
+
+  }
+  .services1{
+    color: #E75480;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+  }
+  .phone{
+    color: #E75480;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .location{
+    color: #E75480;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+  }
+  .visible1{
+    text-decoration: none;
+    
+    color: white;
+  }
+  .productdisplay{
+    display: grid;
+    text-align: center;
+  }
+  .p1
+{
+  text-transform: uppercase;
+  text-shadow: #E75480;
+  color: aqua;
+}
+.dis{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .ourproduts{
+    
+    
+    height: 1000px;
+  }
+  .pm{
+   display: grid;
+   grid-template-columns: auto;
+  }
+  .wish{
+    font-size: medium;
+  }
+  p{
+    font-size: small;
+  }
+  .navibar{
+    display: grid;
+  }
+  body{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .navibarmiddle
+{
+    display: grid;
+    
+     padding-top: 20px;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+   
+}
+label{
+  font-size: small;
+}
+.footer{
+  display: grid;
+
+}
+
+.listservices{
+  font-size: small;
+
+}
+ 
+}
+@media only screen and (min-width: 600px)
+{
+ 
+}
+.ilabel1{
+  visibility: hidden;
+  margin-bottom: 20px;
+  width: 200px;
+}
+.label1{
+  visibility: hidden;
+  color: rgb(65, 65, 198);
+  
+}
+.selectproduct{
+  visibility: hidden;
+ margin-bottom: 20px;
+ width: 100px;
+}
+.bookNowdiv{
+    width: 300px;
+    height: 0;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.bookingbutton{
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #0B0B35;
+  color: white;
+}
+.close{
+  visibility: hidden;
+}
+
