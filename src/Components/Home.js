@@ -396,7 +396,7 @@ const Products=()=>{
         <br></br>
         <label style={{visibility:isAdd? 'visible':'',}}>Total Cost: Rs.{total}</label>
         <br></br>
-        <button  className='Qb'style={{visibility:isAdd? 'visible':'',backgroundColor:isAdd? 'yellow':'',}}>Order</button>
+        <button  className='Qb'style={{visibility:isAdd? 'visible':'',backgroundColor:isAdd? 'yellow':'',}} onClick={()=>{alert("Product successfully is ordered")}}>Order</button>
         <br></br>
         <button  className='Qc'style={{visibility:isAdd? 'visible':'',backgroundColor:isAdd? 'white':'',}} onClick={cancel}>Cancel</button>
       </div>
@@ -437,7 +437,7 @@ const Products=()=>{
       <button className='next1' onClick={next1}> Next<FontAwesomeIcon icon={faArrowRight}  /> </button><button className='next1' onClick={previous1} style={{ backgroundColor: isActive1 ? 'white' : '',
           color: isActive1 ? 'black' : '',}}>previous </button>
       </div>
-      <div  className='adddis2'style={{height: isAdd2? '400px':'', visibility:isAdd2? 'visible':'',backgroundColor:isAdd2? 'rgb(200, 194, 194)':'',}}>
+      <div  className='adddis2'style={{height: isAdd2? '600px':'', visibility:isAdd2? 'visible':'',backgroundColor:isAdd2? 'rgb(200, 194, 194)':'',}}>
         <label  className='orderproductname'style={{visibility:isAdd2? 'visible':'',}}>Product name</label>
         <br></br>
         <img  className='orderproduct' src={orderproduct2} alt='' style={{visibility:isAdd2? 'visible':'', width:isAdd2?'300px':'',height:isAdd2?'300px':'',}}></img>
